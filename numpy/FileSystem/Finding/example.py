@@ -29,6 +29,23 @@ result = find_nearest_value(arr, value)
 print("\nNearest Value:\n")
 print(result)
 
+
+"""
+Original Array
+      ↓
+Subtract Target Value
+      ↓
+Convert Negatives to Positive
+      ↓
+Find Smallest Difference
+      ↓
+Get Index
+      ↓
+Return Original Value
+
+
+"""
+
 """
 | Function       | Purpose                                |
 | -------------- | -------------------------------------- |
